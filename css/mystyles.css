@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Lobster;
+    src: url("/css/fonts/Lobster_1.3.otf");
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#game-logo {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    background-color: rgba(145, 203, 207, 0.1);
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Lobster", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#button-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    top: 120px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 0.3fr;
+    grid-gap: 5vw;
+}
+
+#form-choice {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#square-number {
+    width: 250px;
+}
+
+#submit-button {
+    padding-right: -20px;
+}
+
+#square-container {
+    position: relative;
+    display: block;
+    top: 130px;
+    margin-left : auto;
+    margin-right: auto;
+    width: 95%;
+    height: 430px;
+    background-color: rgba(234, 234, 234, 0.4);
+    box-shadow: 0px 0px 1px 1px #888888;
+}
+
+
+footer {
+    position: fixed;
+    height: 5%;
+    background-color: rgb(240, 240, 240);
+    bottom: 0; left: 0; right: 0;
+    font-size: 20px;
+}
+
+small {
+    font-size: 30px;
+}
